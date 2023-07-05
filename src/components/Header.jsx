@@ -1,4 +1,3 @@
-// import React from 'react'
 import react_logo from "../assets/react.svg"
 
 const Header = () => {
