@@ -8,7 +8,7 @@ const Header = () => {
             <ul>
                 <img src={react_logo} width={40}/>
                 <li>אני מקווה</li>
-                <li>שגם אתה</li>
+                <li>שגם אתה שם מלח</li>
                 <li>נגד או בעד</li>
             </ul>
         </nav>
