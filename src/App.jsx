@@ -7,7 +7,7 @@ import TotalComponent from "./components/TotalComponent";
 // import TotalComponent from "./components/TotalComponent";
 import { TotalProvider } from "./components/context";
 // import TotalComponent from "./components/TotalComponent";
-import Counter from "./components/counter";
+// import Counter from "./components/counter";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         {/* <Header /> */}
         {/* <Main /> */}
         {/* <Footer /> */}
-        <Counter />
+        {/* <Counter /> */}
         <CounterComponent />
         <TotalComponent />
       </div>
