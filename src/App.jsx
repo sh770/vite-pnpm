@@ -1,22 +1,22 @@
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
+// import Header from "./components/Header";
+// import Main from "./components/Main";
+// import Counter from "./components/Counter";
 import CounterComponent from "./components/CounterComponent";
-import Header from "./components/Header";
 import TotalComponent from "./components/TotalComponent";
-import Main from "./components/Main";
 import { TotalProvider } from "./components/context";
-import Counter from "./components/Counter";
 
 function App() {
   return (
     <TotalProvider>
-      <div>
-        <Header />
-        <Main />
-        <Footer />
-        <Counter />
+      <>
+        {/* <Header /> */}
+        {/* <Main /> */}
+        {/* <Footer /> */}
+        {/* <Counter /> */}
         <CounterComponent />
         <TotalComponent />
-      </div>
+      </>
     </TotalProvider>
   );
 }
