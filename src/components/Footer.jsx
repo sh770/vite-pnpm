@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <small>אל תשכחו לחייך :) זה בריא או שלא</small>
     </footer>
   );

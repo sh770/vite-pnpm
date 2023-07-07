@@ -1,12 +1,71 @@
-body{
-    direction: rtl;
-    text-align: center;
-}
-ul {
-    display: inline-block;
-    text-align: right;
-  }
+@import url('https://fonts.googleapis.com/css?family=Tilt+Prism');
 
-  footer{
-    text-align: center;
-  }
+html,body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: center;
+  font-family: 'Tilt Prism', cursive;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  /* list-style: none; */
+  display: flex;
+}
+
+.nav-items>li {
+  padding: 10px;
+  font-size: 35px;
+}
+
+.main {
+  padding: 15px;
+}
+
+.main-title {
+  font-size: 28px;
+  color: brown;
+}
+
+.main-main {
+  font-size: 20px;
+  color: darkslateblue;
+  display: inline-block;
+  text-align: right;
+}
+
+.footer {
+  padding: 15px;
+  font-weight: bold;
+  color: darkorchid;
+  font-size: 25px;
+  margin-top: auto;
+  /* background-color: bisque; */
+  text-align: center;
+}
+
+.nav-logo {
+  width: 80px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items>li {
+  padding: 10px;
+  font-size: 35px;
+}

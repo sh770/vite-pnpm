@@ -3,15 +3,16 @@ import react_logo from "../assets/react.svg"
 const Header = () => {
   return (
     <header>
-        <nav>
-            
-            <ul>
-                <img src={react_logo} width={40}/>
-                <li>אני מקווה</li>
-                <li>שגם אתה שם מלח</li>
-                <li>נגד או בעד</li>
-            </ul>
-        </nav>
+      <nav className="nav">
+        <img className="nav-logo" src={react_logo} />
+
+        <ul className="nav-items">
+
+          <li>ראשון</li>
+          <li>שני</li>
+          <li>שלישי</li>
+        </ul>
+      </nav>
     </header>
   )
 }
