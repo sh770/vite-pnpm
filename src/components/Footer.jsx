@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="footer">
-      <small>אל תשכחו לחייך :) זה בריא או שלא</small>
+      <small>אל תשכחו לחייך :)</small>
     </footer>
   );
 };
