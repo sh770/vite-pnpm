@@ -12,6 +12,4 @@ ViteExpress.listen(app, 3000, () =>
   console.log("Server is listening on port 3000...")
 );
 
-// app.get("/message", (_, res) => res.send("Hello from express!"));
 
-// ViteExpress.listen(app, 5002, () => console.log("Server is listening..."));
